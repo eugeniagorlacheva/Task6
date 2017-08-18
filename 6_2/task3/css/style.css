@@ -1,0 +1,13 @@
+table {
+   width: 500px;
+   border-collapse: collapse;
+   font-family: sans-serif;
+   background-color: #F8F8F8;
+  }
+  td, th {
+   padding: 20px;
+   text-align: center;
+  }
+tr {
+  border-bottom: 1px solid #E0E0E0;
+}

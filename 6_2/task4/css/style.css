@@ -1,0 +1,132 @@
+.wrapper {
+  margin: 20px auto;
+  width: 790px;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: #F8F8F8;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(182, 182, 182, 1);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(182, 182, 182, 1);
+  box-shadow: 0px 0px 5px 5px rgba(182, 182, 182, 1);
+}
+
+table {
+  margin: 0 auto;
+  width: 750px;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  border-left: 20px solid #F8F8F8;
+  border-right: 20px solid #F8F8F8;
+}
+
+td, th {
+  padding: 10px;
+  text-align: center;
+}
+
+tr {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.red {
+  color: red;
+}
+
+.buttons {
+  width: 200px;
+}
+
+button {
+  margin: 2px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.plus, .minus {
+  width: 30px;
+  height: 30px;
+  background-color: #E7242A;
+  font-size: 18px;
+}
+
+.delete {
+  width: 70px;
+  height: 30px;
+  background-color: #DC4E45;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.regular, .italic {
+  text-align: right;
+  font-size: 18px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+  color: #999999;
+}
+
+a {
+  display: block;
+  margin: 15px;
+  font-size: 22px;
+  color: #E7242A;
+  font-style: italic;
+  text-decoration: none;
+  text-align: center;
+}
+
+.bottom {
+  border-top: 1px solid transparent;
+}
+
+table::after {
+  display: block;
+  width: 20px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.close {
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  font-family: Verdana;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+  position: absolute;
+  right:-15px;
+  top:-15px;
+}
+
+.close:before {
+ content:"";
+ width: 100%;
+ height: 100%;
+ display: block;
+ z-index: -1;
+ position: absolute;
+ padding: 4px;
+ background: #fff;
+ left: -4px;
+ top: -4px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ border-radius: 100px;
+ -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+ -moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+ box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.close:active {
+  border: 1px solid transparent;
+}

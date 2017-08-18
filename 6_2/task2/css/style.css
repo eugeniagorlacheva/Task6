@@ -1,0 +1,12 @@
+table {
+   width: 500px;
+   border-collapse: collapse;
+   font-family: sans-serif;
+  }
+  td, th {
+   padding: 20px;
+   text-align: center;
+  }
+.head {
+  border-bottom: 1px solid #E0E0E0;
+}

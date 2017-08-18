@@ -1,0 +1,17 @@
+
+ p {
+   width: 300px;
+ }
+p::first-letter {
+  font-family: Georgia;
+  color: red;
+  font-size: 2em;
+}
+
+p::after {
+  content: "*";
+}
+
+p::before {
+  content: "☂";
+}

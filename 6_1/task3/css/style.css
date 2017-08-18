@@ -1,0 +1,6 @@
+p:nth-child(even) {
+  background-color: grey;
+}
+ p {
+   width: 300px;
+ }

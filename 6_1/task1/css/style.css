@@ -1,0 +1,27 @@
+p {
+  width: 200px;
+}
+
+.p1 {
+  background-color: green;
+}
+
+.p2 {
+  background-color: violet;
+}
+
+.p1::selection {
+  background-color: red;
+}
+
+.p2::selection {
+  background-color: gold;
+}
+
+.p1:hover {
+  background-color: yellow;
+}
+
+.p2:hover {
+  background-color: brown;
+}
