@@ -1,8 +1,11 @@
 table {
-   width: 500px; 
+   width: 500px;
    border-collapse: collapse;
   }
   td, th {
    padding: 3px;
    border: 1px solid black;
   }
+.rowspan {
+  border-top: none;
+}

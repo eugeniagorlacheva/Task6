@@ -7,6 +7,6 @@ table {
    padding: 20px;
    text-align: center;
   }
-.head {
+thead {
   border-bottom: 1px solid #E0E0E0;
 }

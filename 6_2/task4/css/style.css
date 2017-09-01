@@ -84,8 +84,13 @@ a {
   text-align: center;
 }
 
-.bottom {
-  border-top: 1px solid transparent;
+.sum, .red1 {
+  border-bottom: none;
+    border-right: 4px solid black;
+}
+
+.sum1 {
+  border-right: 4px solid black;
 }
 
 table::after {
