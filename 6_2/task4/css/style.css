@@ -86,11 +86,10 @@ a {
 
 .sum, .red1 {
   border-bottom: none;
-    border-right: 4px solid black;
 }
 
-.sum1 {
-  border-right: 4px solid black;
+.sum {
+  border-right: 4px solid #E0E0E0;
 }
 
 table::after {
